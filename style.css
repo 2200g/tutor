@@ -1,0 +1,93 @@
+body {
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.6em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: #070707;
+    color: #E8F1F2;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+a { color: #88B7B5}
+a:hover { color: #FDCFF3 }
+
+input[type="text"] {
+    border: 2px solid  #FDCFF3;
+    border-radius: 5px;
+}
+
+header {
+    color: #FDCFF3;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    border-bottom: 2px solid white;
+}
+
+header h1 {
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FDCFF3;
+}
+
+header span {
+    color: #C8B8DB;
+    text-decoration: underline;
+}
+
+blockquote {
+    font-size: 90%;
+    font-style: italic;
+    color: white;
+}
+
+
+section {
+    padding: 5px;
+    margin: 5px;
+}
+#anime-girl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+article {
+    padding: 5px;
+    margin: 5px;
+}
+
+@media (max-width:1000px)  {
+    body {
+        font-size: 80%;
+        padding: 3%;
+    }
+    .flex {
+	flex-wrap: wrap;
+    }
+    header {
+	font-size: 70%;
+    }
+    header h1 {
+	font-size: 400%;
+    }
+    header, section {
+	margin: 5px;
+	padding: 5px;
+    }
+    article {
+	margin: 2px;
+	paddding: 2px;
+    }
+}
